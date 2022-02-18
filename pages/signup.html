@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <script
+      src="https://kit.fontawesome.com/fe7b324bfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://comp-helloui.netlify.app/style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/wishlist.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="#">Kids Wear</a>
+      </div>
+      <form class="search">
+        <span class="search-icon"><i class="fas fa-search fa-sm"></i></span>
+        <input type="text" placeholder="What are you looking for?" />
+      </form>
+      <div>
+        <ul class="header-links">
+          <li class="header-link">
+            <a href="./login.html" class="btn btn-cta">Login</a>
+          </li>
+          <li class="header-link">
+            <a href="#">
+              <div class="badge-wrapper">
+                <i class="far fa-heart"></i>
+                <span class="badge badge-icon-val">1</span>
+              </div>
+            </a>
+          </li>
+          <li class="header-link">
+            <a href="#">
+              <div class="badge-wrapper">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="badge badge-icon-val">3</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+      <div class="card-login card-shadow">
+        <h2 class="text-center">SignUp</h2>
+        <div class="input-group">
+          <label class="label" for="email">Email Address: </label>
+          <input
+            class="form-control"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="amardeepphule@gmail.com"
+          />
+        </div>
+        <div class="input-group">
+          <label class="label" for="password">Password : </label>
+          <input
+            class="form-control"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="**********"
+          />
+        </div>
+        <div class="input-group">
+          <input type="checkbox" name="remember" id="remember" />
+          <label for="remember">I accept all Terms & Conditions</label>
+        </div>
+        <div class="input-group">
+          <button class="form-control btn btn-cta">Create New Account</button>
+        </div>
+        <div class="input-group">
+          <p class="text-center">
+            <a class="d-flex-center" href="./login.html"
+              >Already Have an Account
+              <span class="create-link"
+                ><i class="fas fa-greater-than"></i></span
+            ></a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
