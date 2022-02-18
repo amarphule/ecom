@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <script
+      src="https://kit.fontawesome.com/fe7b324bfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://comp-helloui.netlify.app/style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/products.css" />
+    <link rel="stylesheet" href="../css/wishlist.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <a href="#">Kids Wear</a>
+      </div>
+      <form class="search">
+        <span class="search-icon"><i class="fas fa-search fa-sm"></i></span>
+        <input type="text" placeholder="What are you looking for?" />
+      </form>
+      <div>
+        <ul class="header-links">
+          <li class="header-link">
+            <a href="#" class="btn btn-cta">Login</a>
+          </li>
+          <li class="header-link">
+            <a href="#">
+              <div class="badge-wrapper">
+                <i class="far fa-heart"></i>
+                <span class="badge badge-icon-val">1</span>
+              </div>
+            </a>
+          </li>
+          <li class="header-link">
+            <a href="#">
+              <div class="badge-wrapper">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="badge badge-icon-val">3</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main-container">
+      <section class="container">
+        <h2 class="text-center">My Cart</h2>
+        <div class="cart-grid grid-two-col">
+          <div class="one">
+            <div class="cart-card d-flex">
+              <img class="img-cart" src="../asset/boy.jpg" alt="boy" />
+              <div class="cart-card-details">
+                <p class="h2">Boy premium shirt</p>
+                <p class="h1 d-flex">
+                  ₹2000 <small class="line-through text-gray">₹3999</small>
+                </p>
+                <p class="text-gray"><b>50% off</b></p>
+                <p class="quantity">
+                  <span>Quantity: </span>
+                  <button>-</button>
+                  <input class="text-center" type="number" value="1" />
+                  <button>+</button>
+                </p>
+                <div class="btn-cart">
+                  <button class="btn btn-cta-outline">Move to wishlist</button>
+                  <button class="btn btn-error-outline">
+                    Remove from cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="cart-card d-flex">
+              <img class="img-cart" src="../asset/boy.jpg" alt="boy" />
+              <div class="cart-card-details">
+                <p class="h2">Boy premium shirt</p>
+                <p class="h1 d-flex">
+                  ₹2000 <small class="line-through text-gray">₹3999</small>
+                </p>
+                <p class="text-gray"><b>50% off</b></p>
+                <p class="quantity">
+                  <span>Quantity: </span>
+                  <button>-</button>
+                  <input class="text-center" type="number" value="1" />
+                  <button>+</button>
+                </p>
+                <div class="btn-cart">
+                  <button class="btn btn-cta-outline">Move to wishlist</button>
+                  <button class="btn btn-error-outline">
+                    Remove from cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="two">
+            <div class="cart-card-price-details">
+              <table class="table full-vw">
+                <tr class="border-bottom">
+                  <th colspan="2">
+                    <h2>Price details</h2>
+                  </th>
+                </tr>
+                <tr>
+                  <td>Price (2 items)</td>
+                  <td>₹4999</td>
+                </tr>
+                <tr>
+                  <td>Discount</td>
+                  <td>-₹1999</td>
+                </tr>
+                <tr class="border-bottom">
+                  <td>Delivery charges</td>
+                  <td>₹499</td>
+                </tr>
+                <tr class="border-bottom">
+                  <td>Total Amount</td>
+                  <td>₹3499</td>
+                </tr>
+                <tr>
+                  <td colspan="2">You will save ₹1499 on this order</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <button class="btn full-vw btn-cta">Place order</button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
