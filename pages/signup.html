@@ -17,7 +17,7 @@
   <body>
     <header class="header">
       <div class="header-logo">
-        <a href="#">Kids Wear</a>
+        <a href="/index.html">Kids Wear</a>
       </div>
       <form class="search">
         <span class="search-icon"><i class="fas fa-search fa-sm"></i></span>
@@ -29,7 +29,7 @@
             <a href="./login.html" class="btn btn-cta">Login</a>
           </li>
           <li class="header-link">
-            <a href="#">
+            <a href="./wishlist.html">
               <div class="badge-wrapper">
                 <i class="far fa-heart"></i>
                 <span class="badge badge-icon-val">1</span>
@@ -37,7 +37,7 @@
             </a>
           </li>
           <li class="header-link">
-            <a href="#">
+            <a href="./cart.html">
               <div class="badge-wrapper">
                 <i class="fas fa-shopping-bag"></i>
                 <span class="badge badge-icon-val">3</span>
@@ -50,6 +50,26 @@
     <main class="container">
       <div class="card-login card-shadow">
         <h2 class="text-center">SignUp</h2>
+        <div class="input-group">
+          <label class="label" for="first-name">First Name: </label>
+          <input
+            class="form-control"
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="input-group">
+          <label class="label" for="last-name">Last Name: </label>
+          <input
+            class="form-control"
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Enter Last Name"
+          />
+        </div>
         <div class="input-group">
           <label class="label" for="email">Email Address: </label>
           <input
@@ -69,6 +89,24 @@
             id="password"
             placeholder="**********"
           />
+        </div>
+        <div class="input-group">
+          <label class="label" for="password">Confirm Password : </label>
+          <input
+            class="form-control"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="**********"
+          />
+        </div>
+        <div class="input-group d-flex">
+          <div class="showPass">
+            <button><i class="fas fa-eye"></i>Show</button>
+          </div>
+          <div class="hidePass">
+            <button><i class="fas fa-eye-slash"></i>Hide</button>
+          </div>
         </div>
         <div class="input-group">
           <input type="checkbox" name="remember" id="remember" />
