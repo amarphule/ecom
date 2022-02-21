@@ -22,14 +22,14 @@ You can visit : https://kids-wear.netlify.app/
 - In filter section i.e left side user can filter product on basis of it's price range, on category, on rating and user can sort products on high to low or low to high price.
 - In content area i.e right side you see filtered result.
 - Link you visit : https://kids-wear.netlify.app/pages/products.html
-- Gif
+- #### Gif
   ![](https://kids-wear.netlify.app/gif/products-list.gif)
 
 ### Wishlist
 
 - User can see his list of item selected to buy later
 - Link you visit: https://kids-wear.netlify.app/pages/wishlist.html
-- Gif
+- #### Gif
   ![](https://kids-wear.netlify.app/gif/wishlist.gif)
 
 ### Cart
@@ -37,7 +37,7 @@ You can visit : https://kids-wear.netlify.app/
 - On this page you can see selected Items, user can change quantity.
 - User can see total amount to be paid and discount.
 - Link you visit: https://kids-wear.netlify.app/pages/cart.html
-- Gif
+- #### Gif
   ![](https://kids-wear.netlify.app/gif/cart.gif)
 
 ### Authentication
@@ -46,10 +46,10 @@ You can visit : https://kids-wear.netlify.app/
   1. For login user need to have email and password.
   - User can see/hide password.
   - Link: https://kids-wear.netlify.app/pages/login.html
-  - Gif
+  - #### Gif
     ![](https://kids-wear.netlify.app/gif/login.gif)
   2. For signup user need to fill form with first name, last name, email, password, confirm password same as password.
   - User can see/hide password.
   - Link: https://kids-wear.netlify.app/pages/signup.html
-  - Gif
+  - #### Gif
     ![](https://kids-wear.netlify.app/gif/signup.gif)
